@@ -50,3 +50,5 @@ View is like the controller in MVC design patterns. In view
 In your subdirectory, create an admin.py and register according to the template admin.site
 
 ##### Deploy to remote server
+
+first we need to check re github repo structure, in case we contained something we didn' need at all, this requires us to add .git ignore to the github repo
