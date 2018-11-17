@@ -3,6 +3,7 @@
 #### How to configure local settings after cloning pycharm project from github?
 1. configure your virtual environment
 2. runserver and get to your administration site
+3. if you use pycharm virtual env, you should run cmd in pycharm terminal
 
 
 #### How to add components to django blog?
@@ -32,6 +33,8 @@ urlpatterns = {
 
 #### Response and Render in view
 
+- get objects in Database.
+- put them to dictionaries to be applied to templates
 #### Why changes on source code didn't apply?
 because the django didn't recognize the source code, and act to some other thing it is used. So we
 
@@ -46,4 +49,6 @@ View is like the controller in MVC design patterns. In view
 ##### Admin sites
 In your subdirectory, create an admin.py and register according to the template admin.site
 
+##### Deploy to remote server
 
+first we need to check re github repo structure, in case we contained something we didn' need at all, this requires us to add .git ignore to the github repo
